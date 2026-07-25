@@ -308,7 +308,7 @@
   {
     "product_id": "P019",
     "product_title": "AirPods Pro 2",
-    "product_image": "https://example.com/airpodspro2.jpg",
+    "product_image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQwAgia5-NBmkh7GEeYaXeQWYXmvRjcCjKE8G8H8YIUPg&s=10",
     "category": "Accessories",
     "price": 249,
     "description": "Wireless earbuds with ANC.",
@@ -325,7 +325,7 @@
   {
     "product_id": "P020",
     "product_title": "Sony WH-1000XM5",
-    "product_image": "https://example.com/xm5.jpg",
+    "product_image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTBOQ4YzY7vzFHE_NOtR83PU9P48RXK63cH_K4RALkm-A&s=10",
     "category": "Accessories",
     "price": 399,
     "description": "Premium wireless headphones.",
@@ -342,7 +342,7 @@
   {
     "product_id": "P021",
     "product_title": "Logitech MX Master 3S",
-    "product_image": "https://example.com/mxmaster3s.jpg",
+    "product_image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSJybyaVfs-u3mt5d0CjLaS2XjrkFeYS70YFpGNaN0Gbw&s=10",
     "category": "Accessories",
     "price": 99,
     "description": "Professional wireless mouse.",
@@ -359,7 +359,7 @@
   {
     "product_id": "P022",
     "product_title": "Apple Magic Keyboard",
-    "product_image": "https://example.com/magickeyboard.jpg",
+    "product_image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQqAqiZPs-Cc9h3e0tMx9XWq44waaQPp0zmZpbs8ee5Vw&s=10",
     "category": "Accessories",
     "price": 179,
     "description": "Premium wireless keyboard.",
@@ -376,7 +376,7 @@
   {
     "product_id": "P023",
     "product_title": "Anker 737 Power Bank",
-    "product_image": "https://example.com/anker737.jpg",
+    "product_image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQZagRe-mGgZGXktI6JZSBdMuGUmx_z2aF_jQs8iPMkmA&s=10",
     "category": "Accessories",
     "price": 149,
     "description": "High-capacity fast charging power bank.",
@@ -393,7 +393,7 @@
   {
     "product_id": "P024",
     "product_title": "Samsung T9 Portable SSD",
-    "product_image": "https://example.com/t9ssd.jpg",
+    "product_image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT7GxGDVkNG3V8la9s46P-7X4q1YYbkIyVAJj-aRsDXag&s=10",
     "category": "Accessories",
     "price": 189,
     "description": "Ultra-fast portable SSD.",
@@ -410,7 +410,7 @@
   {
     "product_id": "P025",
     "product_title": "Apple MagSafe Charger",
-    "product_image": "https://example.com/magsafe.jpg",
+    "product_image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQo8qLOA7esFXH_zPmZD3Kjb1Wu7m-E7HAJM6Z-HU16bQ&s=10",
     "category": "Accessories",
     "price": 39,
     "description": "Wireless charger for iPhone.",
@@ -427,7 +427,7 @@
   {
     "product_id": "P026",
     "product_title": "JBL Flip 6",
-    "product_image": "https://example.com/jblflip6.jpg",
+    "product_image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSZ5GhL6m7xqfQ__IR9ye25WRGhw_tBYzUp1dDrJxOurA&s",
     "category": "Accessories",
     "price": 129,
     "description": "Portable Bluetooth speaker.",
@@ -444,7 +444,7 @@
   {
     "product_id": "P027",
     "product_title": "Dell USB-C Dock",
-    "product_image": "https://example.com/delldock.jpg",
+    "product_image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTvMbTEGBvXhm3xfJkaoun1X6-4S1QtQq5eHmSSpE8yCw&s",
     "category": "Accessories",
     "price": 229,
     "description": "Universal docking station.",
@@ -461,7 +461,7 @@
   {
     "product_id": "P028",
     "product_title": "Apple AirTag",
-    "product_image": "https://example.com/airtag.jpg",
+    "product_image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSXjl9AkFHsCgilyIGHrqTs1-W3D0bARPbH_n8z9JFihA&s=10",
     "category": "Accessories",
     "price": 29,
     "description": "Track your important items.",
@@ -478,7 +478,7 @@
   {
     "product_id": "P029",
     "product_title": "Samsung Galaxy Buds3 Pro",
-    "product_image": "https://example.com/buds3pro.jpg",
+    "product_image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRlBqEmeqcGk28P5z57HbltM-NKwbcYFqb71Lu2do9c3g&s=10",
     "category": "Accessories",
     "price": 249,
     "description": "Premium wireless earbuds.",
@@ -495,7 +495,7 @@
   {
     "product_id": "P030",
     "product_title": "Apple USB-C 140W Power Adapter",
-    "product_image": "https://example.com/apple140w.jpg",
+    "product_image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSwwubUxEyjG5d4rrLpplxdyJ4eqbrZ0_XdFyrY4DCAiA&s=10",
     "category": "Accessories",
     "price": 99,
     "description": "Fast charging adapter for MacBook.",

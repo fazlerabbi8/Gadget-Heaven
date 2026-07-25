@@ -11,7 +11,7 @@ const Categories = () => {
     return (
         <div className="space-y-3">
             {
-                categories.map(category => <button className="btn w-full ">{category}</button>)
+                categories.map(category => <button className="btn btn-dash btn-warning w-full ">{category}</button>)
             }
         </div>
     );
