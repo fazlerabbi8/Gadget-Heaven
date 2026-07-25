@@ -1,0 +1,512 @@
+[
+  {
+    "product_id": "P001",
+    "product_title": "Apple iPhone 15 Pro Max",
+    "product_image": "https://example.com/iphone15promax.jpg",
+    "category": "iPhone",
+    "price": 1299,
+    "description": "Experience the ultimate Apple flagship smartphone.",
+    "specification": [
+      "6.7-inch Super Retina XDR",
+      "A17 Pro Chip",
+      "48MP Triple Camera",
+      "256GB Storage",
+      "USB-C"
+    ],
+    "availability": true,
+    "rating": 4.9
+  },
+  {
+    "product_id": "P002",
+    "product_title": "Apple iPhone 15",
+    "product_image": "https://example.com/iphone15.jpg",
+    "category": "iPhone",
+    "price": 899,
+    "description": "Powerful performance with Dynamic Island.",
+    "specification": [
+      "6.1-inch OLED",
+      "A16 Bionic",
+      "48MP Camera",
+      "128GB Storage",
+      "Face ID"
+    ],
+    "availability": true,
+    "rating": 4.8
+  },
+  {
+    "product_id": "P003",
+    "product_title": "Samsung Galaxy S24 Ultra",
+    "product_image": "https://example.com/s24ultra.jpg",
+    "category": "Phones",
+    "price": 1199,
+    "description": "Premium Android flagship with AI features.",
+    "specification": [
+      "6.8-inch AMOLED",
+      "Snapdragon 8 Gen 3",
+      "200MP Camera",
+      "5000mAh Battery",
+      "S Pen"
+    ],
+    "availability": true,
+    "rating": 4.8
+  },
+  {
+    "product_id": "P004",
+    "product_title": "Google Pixel 9 Pro",
+    "product_image": "https://example.com/pixel9pro.jpg",
+    "category": "Phones",
+    "price": 999,
+    "description": "AI-powered smartphone with amazing camera.",
+    "specification": [
+      "Tensor G4",
+      "6.7-inch OLED",
+      "50MP Camera",
+      "256GB Storage",
+      "Android 15"
+    ],
+    "availability": true,
+    "rating": 4.7
+  },
+  {
+    "product_id": "P005",
+    "product_title": "OnePlus 12",
+    "product_image": "https://example.com/oneplus12.jpg",
+    "category": "Phones",
+    "price": 799,
+    "description": "Fast and smooth flagship Android phone.",
+    "specification": [
+      "Snapdragon 8 Gen 3",
+      "120Hz AMOLED",
+      "100W Charging",
+      "50MP Camera",
+      "512GB Storage"
+    ],
+    "availability": true,
+    "rating": 4.7
+  },
+  {
+    "product_id": "P006",
+    "product_title": "Xiaomi 14 Ultra",
+    "product_image": "https://example.com/xiaomi14ultra.jpg",
+    "category": "Phones",
+    "price": 999,
+    "description": "Professional photography smartphone.",
+    "specification": [
+      "Leica Camera",
+      "Snapdragon 8 Gen 3",
+      "120Hz AMOLED",
+      "5000mAh Battery",
+      "512GB"
+    ],
+    "availability": true,
+    "rating": 4.6
+  },
+  {
+    "product_id": "P007",
+    "product_title": "Dell XPS 15",
+    "product_image": "https://example.com/dellxps15.jpg",
+    "category": "Laptops",
+    "price": 1899,
+    "description": "Premium Windows laptop for professionals.",
+    "specification": [
+      "Intel Core i7",
+      "16GB RAM",
+      "1TB SSD",
+      "15.6-inch OLED",
+      "RTX 4050"
+    ],
+    "availability": true,
+    "rating": 4.8
+  },
+  {
+    "product_id": "P008",
+    "product_title": "HP Spectre x360",
+    "product_image": "https://example.com/hpspectre.jpg",
+    "category": "Laptops",
+    "price": 1599,
+    "description": "Convertible premium ultrabook.",
+    "specification": [
+      "Intel Core Ultra 7",
+      "16GB RAM",
+      "1TB SSD",
+      "Touch Display",
+      "Windows 11"
+    ],
+    "availability": true,
+    "rating": 4.7
+  },
+  {
+    "product_id": "P009",
+    "product_title": "Lenovo Legion Pro 5",
+    "product_image": "https://example.com/legion5.jpg",
+    "category": "Laptops",
+    "price": 1699,
+    "description": "Gaming laptop with high performance.",
+    "specification": [
+      "Ryzen 9",
+      "RTX 4070",
+      "32GB RAM",
+      "1TB SSD",
+      "240Hz Display"
+    ],
+    "availability": true,
+    "rating": 4.8
+  },
+  {
+    "product_id": "P010",
+    "product_title": "ASUS ROG Zephyrus G16",
+    "product_image": "https://example.com/rogg16.jpg",
+    "category": "Laptops",
+    "price": 1999,
+    "description": "Powerful gaming and creator laptop.",
+    "specification": [
+      "Intel Core Ultra 9",
+      "RTX 4080",
+      "32GB RAM",
+      "1TB SSD",
+      "OLED Display"
+    ],
+    "availability": true,
+    "rating": 4.9
+  },
+  {
+    "product_id": "P011",
+    "product_title": "Acer Swift Go 14",
+    "product_image": "https://example.com/swiftgo.jpg",
+    "category": "Laptops",
+    "price": 999,
+    "description": "Lightweight productivity laptop.",
+    "specification": [
+      "Intel Core Ultra 5",
+      "16GB RAM",
+      "512GB SSD",
+      "14-inch OLED",
+      "Windows 11"
+    ],
+    "availability": true,
+    "rating": 4.6
+  },
+  {
+    "product_id": "P012",
+    "product_title": "MacBook Air M3",
+    "product_image": "https://example.com/macbookairm3.jpg",
+    "category": "MacBook",
+    "price": 1299,
+    "description": "Thin and powerful Apple laptop.",
+    "specification": [
+      "Apple M3",
+      "16GB Unified Memory",
+      "512GB SSD",
+      "13.6-inch Retina",
+      "18-hour Battery"
+    ],
+    "availability": true,
+    "rating": 4.9
+  },
+  {
+    "product_id": "P013",
+    "product_title": "MacBook Pro 14 M3 Pro",
+    "product_image": "https://example.com/macbookpro14.jpg",
+    "category": "MacBook",
+    "price": 1999,
+    "description": "Professional laptop for creators.",
+    "specification": [
+      "M3 Pro",
+      "18GB RAM",
+      "512GB SSD",
+      "Liquid Retina XDR",
+      "Thunderbolt 4"
+    ],
+    "availability": true,
+    "rating": 4.9
+  },
+  {
+    "product_id": "P014",
+    "product_title": "MacBook Pro 16 M3 Max",
+    "product_image": "https://example.com/macbookpro16.jpg",
+    "category": "MacBook",
+    "price": 3499,
+    "description": "Ultimate performance MacBook.",
+    "specification": [
+      "M3 Max",
+      "36GB RAM",
+      "1TB SSD",
+      "16-inch XDR",
+      "22-hour Battery"
+    ],
+    "availability": true,
+    "rating": 5.0
+  },
+  {
+    "product_id": "P015",
+    "product_title": "Apple Watch Series 10",
+    "product_image": "https://example.com/watch10.jpg",
+    "category": "Smart Watches",
+    "price": 499,
+    "description": "Advanced Apple smartwatch.",
+    "specification": [
+      "Always-On Display",
+      "ECG",
+      "Blood Oxygen",
+      "GPS",
+      "Water Resistant"
+    ],
+    "availability": true,
+    "rating": 4.8
+  },
+  {
+    "product_id": "P016",
+    "product_title": "Samsung Galaxy Watch Ultra",
+    "product_image": "https://example.com/watchultra.jpg",
+    "category": "Smart Watches",
+    "price": 649,
+    "description": "Rugged premium smartwatch.",
+    "specification": [
+      "AMOLED Display",
+      "GPS",
+      "Heart Rate",
+      "LTE",
+      "Titanium Body"
+    ],
+    "availability": true,
+    "rating": 4.7
+  },
+  {
+    "product_id": "P017",
+    "product_title": "Google Pixel Watch 3",
+    "product_image": "https://example.com/pixelwatch3.jpg",
+    "category": "Smart Watches",
+    "price": 399,
+    "description": "Smartwatch with Wear OS.",
+    "specification": [
+      "Wear OS",
+      "AMOLED",
+      "Heart Tracking",
+      "GPS",
+      "Fast Charging"
+    ],
+    "availability": true,
+    "rating": 4.6
+  },
+  {
+    "product_id": "P018",
+    "product_title": "Garmin Venu 3",
+    "product_image": "https://example.com/venu3.jpg",
+    "category": "Smart Watches",
+    "price": 449,
+    "description": "Fitness-focused smartwatch.",
+    "specification": [
+      "AMOLED",
+      "GPS",
+      "Sleep Tracking",
+      "10-Day Battery",
+      "Waterproof"
+    ],
+    "availability": true,
+    "rating": 4.8
+  },
+  {
+    "product_id": "P019",
+    "product_title": "AirPods Pro 2",
+    "product_image": "https://example.com/airpodspro2.jpg",
+    "category": "Accessories",
+    "price": 249,
+    "description": "Wireless earbuds with ANC.",
+    "specification": [
+      "Active Noise Cancellation",
+      "USB-C",
+      "Spatial Audio",
+      "MagSafe",
+      "IP54"
+    ],
+    "availability": true,
+    "rating": 4.9
+  },
+  {
+    "product_id": "P020",
+    "product_title": "Sony WH-1000XM5",
+    "product_image": "https://example.com/xm5.jpg",
+    "category": "Accessories",
+    "price": 399,
+    "description": "Premium wireless headphones.",
+    "specification": [
+      "ANC",
+      "30-hour Battery",
+      "Bluetooth 5.3",
+      "Touch Controls",
+      "Hi-Res Audio"
+    ],
+    "availability": true,
+    "rating": 4.9
+  },
+  {
+    "product_id": "P021",
+    "product_title": "Logitech MX Master 3S",
+    "product_image": "https://example.com/mxmaster3s.jpg",
+    "category": "Accessories",
+    "price": 99,
+    "description": "Professional wireless mouse.",
+    "specification": [
+      "8000 DPI",
+      "USB-C",
+      "Silent Clicks",
+      "Bluetooth",
+      "70-Day Battery"
+    ],
+    "availability": true,
+    "rating": 4.8
+  },
+  {
+    "product_id": "P022",
+    "product_title": "Apple Magic Keyboard",
+    "product_image": "https://example.com/magickeyboard.jpg",
+    "category": "Accessories",
+    "price": 179,
+    "description": "Premium wireless keyboard.",
+    "specification": [
+      "Rechargeable",
+      "Bluetooth",
+      "USB-C",
+      "Scissor Keys",
+      "Mac Compatible"
+    ],
+    "availability": true,
+    "rating": 4.7
+  },
+  {
+    "product_id": "P023",
+    "product_title": "Anker 737 Power Bank",
+    "product_image": "https://example.com/anker737.jpg",
+    "category": "Accessories",
+    "price": 149,
+    "description": "High-capacity fast charging power bank.",
+    "specification": [
+      "24000mAh",
+      "140W Output",
+      "USB-C",
+      "Smart Display",
+      "Fast Charging"
+    ],
+    "availability": true,
+    "rating": 4.8
+  },
+  {
+    "product_id": "P024",
+    "product_title": "Samsung T9 Portable SSD",
+    "product_image": "https://example.com/t9ssd.jpg",
+    "category": "Accessories",
+    "price": 189,
+    "description": "Ultra-fast portable SSD.",
+    "specification": [
+      "2TB",
+      "USB 3.2",
+      "2000MB/s",
+      "Shock Resistant",
+      "Compact Design"
+    ],
+    "availability": true,
+    "rating": 4.8
+  },
+  {
+    "product_id": "P025",
+    "product_title": "Apple MagSafe Charger",
+    "product_image": "https://example.com/magsafe.jpg",
+    "category": "Accessories",
+    "price": 39,
+    "description": "Wireless charger for iPhone.",
+    "specification": [
+      "15W Charging",
+      "USB-C",
+      "Magnetic Alignment",
+      "Compact",
+      "Apple Compatible"
+    ],
+    "availability": true,
+    "rating": 4.6
+  },
+  {
+    "product_id": "P026",
+    "product_title": "JBL Flip 6",
+    "product_image": "https://example.com/jblflip6.jpg",
+    "category": "Accessories",
+    "price": 129,
+    "description": "Portable Bluetooth speaker.",
+    "specification": [
+      "Waterproof",
+      "12-hour Battery",
+      "Bluetooth 5.1",
+      "USB-C",
+      "Rich Bass"
+    ],
+    "availability": true,
+    "rating": 4.7
+  },
+  {
+    "product_id": "P027",
+    "product_title": "Dell USB-C Dock",
+    "product_image": "https://example.com/delldock.jpg",
+    "category": "Accessories",
+    "price": 229,
+    "description": "Universal docking station.",
+    "specification": [
+      "HDMI",
+      "DisplayPort",
+      "USB-C",
+      "Ethernet",
+      "Power Delivery"
+    ],
+    "availability": true,
+    "rating": 4.7
+  },
+  {
+    "product_id": "P028",
+    "product_title": "Apple AirTag",
+    "product_image": "https://example.com/airtag.jpg",
+    "category": "Accessories",
+    "price": 29,
+    "description": "Track your important items.",
+    "specification": [
+      "Precision Finding",
+      "Water Resistant",
+      "Replaceable Battery",
+      "Bluetooth",
+      "Find My Support"
+    ],
+    "availability": true,
+    "rating": 4.8
+  },
+  {
+    "product_id": "P029",
+    "product_title": "Samsung Galaxy Buds3 Pro",
+    "product_image": "https://example.com/buds3pro.jpg",
+    "category": "Accessories",
+    "price": 249,
+    "description": "Premium wireless earbuds.",
+    "specification": [
+      "ANC",
+      "Hi-Fi Audio",
+      "Bluetooth 5.4",
+      "Wireless Charging",
+      "IP57"
+    ],
+    "availability": true,
+    "rating": 4.7
+  },
+  {
+    "product_id": "P030",
+    "product_title": "Apple USB-C 140W Power Adapter",
+    "product_image": "https://example.com/apple140w.jpg",
+    "category": "Accessories",
+    "price": 99,
+    "description": "Fast charging adapter for MacBook.",
+    "specification": [
+      "140W Output",
+      "USB-C",
+      "Fast Charging",
+      "Compact Design",
+      "Apple Compatible"
+    ],
+    "availability": true,
+    "rating": 4.8
+  }
+]
