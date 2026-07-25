@@ -2,7 +2,7 @@
   {
     "product_id": "P001",
     "product_title": "Apple iPhone 15 Pro Max",
-    "product_image": "https://example.com/iphone15promax.jpg",
+    "product_image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRpMVIxIebU6vjbPQEgEWuyJ26oB-fvrzQKtsWK81ak4A&s=10",
     "category": "iPhone",
     "price": 1299,
     "description": "Experience the ultimate Apple flagship smartphone.",
@@ -19,7 +19,7 @@
   {
     "product_id": "P002",
     "product_title": "Apple iPhone 15",
-    "product_image": "https://example.com/iphone15.jpg",
+    "product_image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR229hb0P9Od8RcnSBWY4ZxqlPoD8qsXXZvQmwbUc3lzQ&s=10",
     "category": "iPhone",
     "price": 899,
     "description": "Powerful performance with Dynamic Island.",
@@ -36,7 +36,7 @@
   {
     "product_id": "P003",
     "product_title": "Samsung Galaxy S24 Ultra",
-    "product_image": "https://example.com/s24ultra.jpg",
+    "product_image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRv-wzpiGHvP-yzV0mDieUWCwVJ9O2emBli-Zrh_XS0WQ&s",
     "category": "Phones",
     "price": 1199,
     "description": "Premium Android flagship with AI features.",
@@ -53,7 +53,7 @@
   {
     "product_id": "P004",
     "product_title": "Google Pixel 9 Pro",
-    "product_image": "https://example.com/pixel9pro.jpg",
+    "product_image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRG_LLIkGosnVqrkpt-YI4UWbOTtXrEOTove-TThx2MNw&s",
     "category": "Phones",
     "price": 999,
     "description": "AI-powered smartphone with amazing camera.",
@@ -70,7 +70,7 @@
   {
     "product_id": "P005",
     "product_title": "OnePlus 12",
-    "product_image": "https://example.com/oneplus12.jpg",
+    "product_image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSVi_slzZPTQu23tuvus3_xS15YoSNJHCHH9JKCU7FoOQ&s=10",
     "category": "Phones",
     "price": 799,
     "description": "Fast and smooth flagship Android phone.",
@@ -87,7 +87,7 @@
   {
     "product_id": "P006",
     "product_title": "Xiaomi 14 Ultra",
-    "product_image": "https://example.com/xiaomi14ultra.jpg",
+    "product_image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRXN0OsxbD6hRgx_H8XuA6A5f_gNki2lGGVTD2Dfia9fA&s",
     "category": "Phones",
     "price": 999,
     "description": "Professional photography smartphone.",
@@ -104,7 +104,7 @@
   {
     "product_id": "P007",
     "product_title": "Dell XPS 15",
-    "product_image": "https://example.com/dellxps15.jpg",
+    "product_image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRllP26Ba7AvBr3GAtoI_bvAxY95ef7J8P74CGQXfnZNw&s=10",
     "category": "Laptops",
     "price": 1899,
     "description": "Premium Windows laptop for professionals.",
@@ -121,7 +121,7 @@
   {
     "product_id": "P008",
     "product_title": "HP Spectre x360",
-    "product_image": "https://example.com/hpspectre.jpg",
+    "product_image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTPNFwu7a5glXTH-ijoBcEcESCIs23oO5CgTpJFNedZ8g&s",
     "category": "Laptops",
     "price": 1599,
     "description": "Convertible premium ultrabook.",
@@ -138,7 +138,7 @@
   {
     "product_id": "P009",
     "product_title": "Lenovo Legion Pro 5",
-    "product_image": "https://example.com/legion5.jpg",
+    "product_image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRWXmgPWswO0QWjGSd4i5-sxWA2aKEngInJ_rrooKfDLg&s=10",
     "category": "Laptops",
     "price": 1699,
     "description": "Gaming laptop with high performance.",
@@ -155,7 +155,7 @@
   {
     "product_id": "P010",
     "product_title": "ASUS ROG Zephyrus G16",
-    "product_image": "https://example.com/rogg16.jpg",
+    "product_image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ089j_jnyJVjiSLST7XPr6U2OKBQrFckZueV6zC3bCzA&s=10",
     "category": "Laptops",
     "price": 1999,
     "description": "Powerful gaming and creator laptop.",
@@ -172,7 +172,7 @@
   {
     "product_id": "P011",
     "product_title": "Acer Swift Go 14",
-    "product_image": "https://example.com/swiftgo.jpg",
+    "product_image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSRd7pzbbKi-t6ypp6oL77PT1st-mlKPsBpqXRANXknBw&s=10",
     "category": "Laptops",
     "price": 999,
     "description": "Lightweight productivity laptop.",
@@ -189,7 +189,7 @@
   {
     "product_id": "P012",
     "product_title": "MacBook Air M3",
-    "product_image": "https://example.com/macbookairm3.jpg",
+    "product_image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSynC5nrcvBLZuDPOXEomz6wGtUUoTPC-kbI-FGWCzO3w&s=10",
     "category": "MacBook",
     "price": 1299,
     "description": "Thin and powerful Apple laptop.",
@@ -206,7 +206,7 @@
   {
     "product_id": "P013",
     "product_title": "MacBook Pro 14 M3 Pro",
-    "product_image": "https://example.com/macbookpro14.jpg",
+    "product_image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTqYHrWhnRwqBsDG7rSl_viK_e_RFmWGN-iF4DZm0pLxg&s=10",
     "category": "MacBook",
     "price": 1999,
     "description": "Professional laptop for creators.",
@@ -223,7 +223,7 @@
   {
     "product_id": "P014",
     "product_title": "MacBook Pro 16 M3 Max",
-    "product_image": "https://example.com/macbookpro16.jpg",
+    "product_image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSMcVsfx9BgPhxoOMY1N1rLZ4QurhudSlCKJT70UP5C-A&s=10",
     "category": "MacBook",
     "price": 3499,
     "description": "Ultimate performance MacBook.",
@@ -240,7 +240,7 @@
   {
     "product_id": "P015",
     "product_title": "Apple Watch Series 10",
-    "product_image": "https://example.com/watch10.jpg",
+    "product_image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTLXt3ONcaO-pdZmrLgpzIq5TPT8V3odahRjPon53CTgw&s",
     "category": "Smart Watches",
     "price": 499,
     "description": "Advanced Apple smartwatch.",
@@ -257,7 +257,7 @@
   {
     "product_id": "P016",
     "product_title": "Samsung Galaxy Watch Ultra",
-    "product_image": "https://example.com/watchultra.jpg",
+    "product_image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSfXOHfdtnqTbdBMvt412pKBqwKtu-uvM6jFQLD9v2c1g&s=10",
     "category": "Smart Watches",
     "price": 649,
     "description": "Rugged premium smartwatch.",
@@ -274,7 +274,7 @@
   {
     "product_id": "P017",
     "product_title": "Google Pixel Watch 3",
-    "product_image": "https://example.com/pixelwatch3.jpg",
+    "product_image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQFZteegvDf69LLzOFRld9uql5uuk0lwq0uKwUD7afyJA&s=10",
     "category": "Smart Watches",
     "price": 399,
     "description": "Smartwatch with Wear OS.",
@@ -291,7 +291,7 @@
   {
     "product_id": "P018",
     "product_title": "Garmin Venu 3",
-    "product_image": "https://example.com/venu3.jpg",
+    "product_image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTgxRURFrG8_Wmcon0Mo4i_EbVb-r8zACxrWsDteeQDrA&s=10",
     "category": "Smart Watches",
     "price": 449,
     "description": "Fitness-focused smartwatch.",
