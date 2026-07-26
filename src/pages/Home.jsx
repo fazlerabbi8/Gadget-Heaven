@@ -4,7 +4,6 @@ import Products from "../components/Products/Products";
 
 const Home = () => {
   const products = useLoaderData();
-  console.log(products)
   return (
     <div className="container mx-auto">
       <Banner></Banner>
