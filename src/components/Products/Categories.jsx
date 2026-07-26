@@ -1,6 +1,6 @@
-const Categories = ({selectedCategory,setSelectedCategory}) => {
+const Categories = ({selectedCategory,setSelectedCategory,}) => {
     const categories = [
-        "All Product",
+        "All Products",
         "Laptops",
         "Phones",
         "Accessories",
