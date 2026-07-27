@@ -35,9 +35,7 @@ const Navbar = () => {
             <li>
               <a>Statistics</a>
             </li>
-            <li>
-              <a>Dashboard</a>
-            </li>
+             <li><Link to="/dashboard">Dashboard</Link></li>
           </ul>
         </div>
         <a className="btn btn-ghost text-xl">Gadget Heaven</a>
@@ -45,19 +43,21 @@ const Navbar = () => {
       <div className="navbar-center hidden lg:flex">
         <ul className="menu menu-horizontal px-1">
           <li className="">
-              <a>Home</a>
-            </li>
-            <li>
-              <a>Statistics</a>
-            </li>
-            <li>
-              <a>Dashboard</a>
-            </li>
+            <a>Home</a>
+          </li>
+          <li>
+            <a>Statistics</a>
+          </li>
+           <li><Link to="/dashboard">Dashboard</Link></li>
         </ul>
       </div>
       <div className="navbar-end gap-3">
-        <Link className="text-2xl"><LuShoppingCart /></Link>
-        <Link className="text-2xl btn"><MdOutlineFavoriteBorder /></Link>
+        <Link className="text-2xl">
+          <LuShoppingCart />
+        </Link>
+        <Link className="text-2xl btn">
+          <MdOutlineFavoriteBorder />
+        </Link>
       </div>
     </div>
   );

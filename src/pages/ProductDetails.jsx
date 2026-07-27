@@ -1,7 +1,27 @@
 import { useLoaderData } from "react-router";
+import { useShop } from "../Context/ShopContext";
+import { useState } from "react";
+import Modal from "../components/Modal";
 
 const ProductDetails = () => {
   const product = useLoaderData();
+
+  const { addToCart, addToWishList } = useShop();
+
+  const [showModal, setShowModal] = useState(false);
+  const [message, setMessage] = useState("");
+
+  const handleCart = () => {
+    addToCart(product);
+    setMessage(`${product_title} added to cart successfully.`);
+    setShowModal(true);
+  };
+
+  const handleWishList = () => {
+    addToWishList(product);
+    setMessage(`${product.product_title} added to wishlist successfully.`);
+    setShowModal(true);
+  };
 
   const {
     product_title,
@@ -61,8 +81,13 @@ const ProductDetails = () => {
           </ul>
 
           <div className="mt-10 flex gap-10">
-            <button className="btn btn-warning">Add to cart</button>
-            <button className="btn">
+            <button
+              onClick={handleCart}
+              className="btn btn-warning"
+            >
+              Add to cart
+            </button>
+            <button onClick={handleWishList} className="btn">
               Favorite
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -82,6 +107,12 @@ const ProductDetails = () => {
           </div>
         </div>
       </div>
+       {showModal && (
+      <Modal
+        message={message}
+        onClose={() => setShowModal(false)}
+      />
+    )}
     </div>
   );
 };
