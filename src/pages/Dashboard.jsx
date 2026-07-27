@@ -5,7 +5,8 @@ import Modal from "../components/Modal";
 function Dashboard() {
   const [message, setMessage] = useState("");
   const [showModal, setShowModal] = useState(false);
-  const [sortPrice, setSortPrice] = useState([]);
+  // const [sortPrice, setSortPrice] = useState([]);
+  const [isSorted, setIsSorted] = useState(false);
 
   const handlePurchase = () => {
     if (displayProducts.length === 0) {
@@ -13,7 +14,7 @@ function Dashboard() {
     }
 
     clearCart();
-    setSortPrice([]);
+    // setSortPrice([]);
     setMessage("Your purchase was completed successfully!");
 
     setShowModal(true);
@@ -23,12 +24,16 @@ function Dashboard() {
     useShop();
   const totalCost = cart.reduce((sum, p) => sum + Number(p.price), 0);
 
-  const displayProducts = sortPrice.length > 0 ? sortPrice : cart;
+  // const displayProducts = sortPrice.length > 0 ? sortPrice : cart;
+
+  const displayProducts = isSorted ? [...cart].sort((a, b) => b.price - a.price) : cart;
 
   // sort function
   const handleSort = () => {
-    const sorted = [...cart].sort((a, b) => b.price - a.price);
-    setSortPrice(sorted);
+    // const sorted = [...cart].sort((a, b) => b.price - a.price);
+    // setSortPrice(sorted);
+
+    setIsSorted(true);
   };
 
   return (
