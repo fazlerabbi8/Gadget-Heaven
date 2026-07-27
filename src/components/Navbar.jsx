@@ -34,7 +34,11 @@ const Navbar = () => {
            <li><Link to="/dashboard">Dashboard</Link></li>
           </ul>
         </div>
-        <a className="text-2xl font-bold"><Link to="/">Gadgets Heaven</Link></a>
+       <div className="flex items-center justify-center gap-4">
+        <img className="w-16 h-16" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTTD6sT9J-ouyGypqu_-mu9XJ13r98RGS2Mg2EqAZOhbw&s=10" alt="" />
+         <a className="text-2xl font-bold"><Link to="/">Gadgets Heaven</Link></a>
+         
+       </div>
       </div>
       <div className="navbar-center hidden lg:flex">
         <ul className="menu menu-horizontal px-1">

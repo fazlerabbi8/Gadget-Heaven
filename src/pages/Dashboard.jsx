@@ -3,13 +3,12 @@ import { useShop } from "../Context/ShopContext";
 import Modal from "../components/Modal";
 
 function Dashboard() {
-
   const [message, setMessage] = useState("");
   const [showModal, setShowModal] = useState(false);
+  const [sortPrice, setSortPrice] = useState([]);
 
-
-  const handlePurchase = () =>{
-    if(cart.length === 0){
+  const handlePurchase = () => {
+    if (cart.length === 0) {
       return;
     }
 
@@ -18,10 +17,20 @@ function Dashboard() {
     setMessage("Your purchase was completed successfully!");
 
     setShowModal(true);
-  }
+  };
 
-  const { cart, wishlist, removeFromCart, removeFromWishList,clearCart } = useShop();
+  const { cart, wishlist, removeFromCart, removeFromWishList, clearCart } =
+    useShop();
   const totalCost = cart.reduce((sum, p) => sum + Number(p.price), 0);
+
+  const displayProducts = sortPrice.length > 0 ? sortPrice : cart;
+
+  // sort function
+  const handleSort = () => {
+    const sorted = [...cart].sort((a, b) => b.price - a.price);
+    setSortPrice(sorted);
+  };
+
 
   return (
     <div className="max-w-6xl mx-auto py-10">
@@ -29,7 +38,8 @@ function Dashboard() {
       <div className="bg-purple-600 text-white text-center py-12 rounded-xl mb-10">
         <h1 className="text-4xl font-bold mb-3">Dashboard</h1>
         <p className="max-w-xl mx-auto opacity-90">
-          Explore the latest gadgets that will take your experience to the next level.
+          Explore the latest gadgets that will take your experience to the next
+          level.
         </p>
       </div>
 
@@ -39,14 +49,24 @@ function Dashboard() {
           <h2 className="text-xl font-bold">Cart</h2>
           <div className="flex items-center gap-4">
             <span className="font-bold">Total cost: {totalCost}</span>
-            <button className="btn btn-outline btn-sm rounded-full">Sort by Price</button>
-            <button onClick={handlePurchase} className="btn btn-primary btn-sm rounded-full">Purchase</button>
+            <button
+              onClick={handleSort}
+              className="btn btn-outline btn-sm rounded-full"
+            >
+              Sort by Price
+            </button>
+            <button
+              onClick={handlePurchase}
+              className="btn btn-primary btn-sm rounded-full"
+            >
+              Purchase
+            </button>
           </div>
         </div>
 
-        {cart.length === 0 && <p className="text-gray-400">Cart is empty.</p>}
+        {displayProducts.length === 0 && <p className="text-gray-400">Cart is empty.</p>}
 
-        {cart.map((product) => (
+        {displayProducts.map((product) => (
           <div
             key={product.product_title}
             className="flex items-center justify-between border border-gray-500 py-6"
@@ -59,7 +79,9 @@ function Dashboard() {
               />
               <div>
                 <h3 className="font-bold">{product.product_title}</h3>
-                <p className="text-sm text-gray-500 max-w-md">{product.description}</p>
+                <p className="text-sm text-gray-500 max-w-md">
+                  {product.description}
+                </p>
                 <p className="text-sm mt-1">
                   Price: <span className="font-semibold">${product.price}</span>
                 </p>
@@ -79,7 +101,9 @@ function Dashboard() {
       <div className="border rounded-xl p-6">
         <h2 className="text-xl font-bold mb-6">Wishlist</h2>
 
-        {wishlist.length === 0 && <p className="text-gray-400">Wishlist is empty.</p>}
+        {wishlist.length === 0 && (
+          <p className="text-gray-400">Wishlist is empty.</p>
+        )}
 
         {wishlist.map((product) => (
           <div
@@ -105,7 +129,7 @@ function Dashboard() {
       </div>
       <Modal
         message={message}
-        showModal = {showModal}
+        showModal={showModal}
         onClose={() => setShowModal(false)}
       />
     </div>
