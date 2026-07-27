@@ -59,12 +59,19 @@ function Dashboard() {
             >
               Sort by Price
             </button>
-            <button
+            {
+              cart.length === 0 ? <button disabled
+              onClick={handlePurchase}
+              className="btn btn-primary btn-sm rounded-full"
+            >
+              Purchase
+            </button> : <button
               onClick={handlePurchase}
               className="btn btn-primary btn-sm rounded-full"
             >
               Purchase
             </button>
+            }
           </div>
         </div>
 
