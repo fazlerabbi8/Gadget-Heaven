@@ -8,12 +8,12 @@ function Dashboard() {
   const [sortPrice, setSortPrice] = useState([]);
 
   const handlePurchase = () => {
-    if (cart.length === 0) {
+    if (displayProducts.length === 0) {
       return;
     }
 
     clearCart();
-
+    setSortPrice([]);
     setMessage("Your purchase was completed successfully!");
 
     setShowModal(true);
@@ -31,7 +31,6 @@ function Dashboard() {
     setSortPrice(sorted);
   };
 
-
   return (
     <div className="max-w-6xl mx-auto py-10">
       {/* Banner */}
@@ -44,7 +43,7 @@ function Dashboard() {
       </div>
 
       {/* Cart section */}
-      <div className="border border-blue-400 rounded-xl p-6 mb-10">
+      <div className="border border-blue-500 rounded-xl p-6 mb-10">
         <div className="flex justify-between items-center mb-6">
           <h2 className="text-xl font-bold">Cart</h2>
           <div className="flex items-center gap-4">
@@ -64,37 +63,42 @@ function Dashboard() {
           </div>
         </div>
 
-        {displayProducts.length === 0 && <p className="text-gray-400">Cart is empty.</p>}
+        {displayProducts.length === 0 && (
+          <p className="text-gray-400">Cart is empty.</p>
+        )}
 
-        {displayProducts.map((product) => (
-          <div
-            key={product.product_title}
-            className="flex items-center justify-between border border-gray-500 py-6"
-          >
-            <div className="flex gap-4 items-center">
-              <img
-                src={product.product_image}
-                alt={product.product_title}
-                className="w-20 h-20 object-cover rounded-lg bg-gray-100"
-              />
-              <div>
-                <h3 className="font-bold">{product.product_title}</h3>
-                <p className="text-sm text-gray-500 max-w-md">
-                  {product.description}
-                </p>
-                <p className="text-sm mt-1">
-                  Price: <span className="font-semibold">${product.price}</span>
-                </p>
-              </div>
-            </div>
-            <button
-              onClick={() => removeFromCart(product.product_title)}
-              className="text-red-500 border border-red-300 mr-3 rounded-full w-8 h-8 flex items-center justify-center hover:bg-red-50"
+        <div className="space-y-3">
+          {displayProducts.map((product) => (
+            <div
+              key={product.product_title}
+              className="flex items-center justify-between border border-gray-400 p-4 rounded-lg"
             >
-              ✕
-            </button>
-          </div>
-        ))}
+              <div className="flex gap-4 items-center">
+                <img
+                  src={product.product_image}
+                  alt={product.product_title}
+                  className="w-20 h-20 object-cover rounded-lg bg-gray-100"
+                />
+                <div>
+                  <h3 className="font-bold">{product.product_title}</h3>
+                  <p className="text-sm text-gray-400 max-w-md">
+                    {product.description}
+                  </p>
+                  <p className="text-sm mt-1">
+                    Price:{" "}
+                    <span className="font-semibold">${product.price}</span>
+                  </p>
+                </div>
+              </div>
+              <button
+                onClick={() => removeFromCart(product.product_title)}
+                className="text-red-500 border border-red-300 mr-3 rounded-full w-8 h-8 flex items-center justify-center hover:bg-red-50"
+              >
+                ✕
+              </button>
+            </div>
+          ))}
+        </div>
       </div>
 
       {/* Wishlist section */}
