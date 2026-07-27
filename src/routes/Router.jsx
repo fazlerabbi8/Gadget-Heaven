@@ -5,6 +5,7 @@ import { Component } from "react";
 import Home from "../pages/Home";
 import ProductDetails from "../pages/ProductDetails";
 import Dashboard from "../pages/Dashboard";
+import Statistics from "../pages/Statistics";
 
 const router = createBrowserRouter([
   {
@@ -32,6 +33,10 @@ const router = createBrowserRouter([
       {
         path: "/dashboard",
         Component: Dashboard,
+      },
+      {
+        path:"/statistics",
+        Component:Statistics,
       },
     ],
   },

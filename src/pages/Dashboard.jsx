@@ -1,7 +1,26 @@
+import { useState } from "react";
 import { useShop } from "../Context/ShopContext";
+import Modal from "../components/Modal";
 
 function Dashboard() {
-  const { cart, wishlist, removeFromCart, removeFromWishList } = useShop();
+
+  const [message, setMessage] = useState("");
+  const [showModal, setShowModal] = useState(false);
+
+
+  const handlePurchase = () =>{
+    if(cart.length === 0){
+      return;
+    }
+
+    clearCart();
+
+    setMessage("Your purchase was completed successfully!");
+
+    setShowModal(true);
+  }
+
+  const { cart, wishlist, removeFromCart, removeFromWishList,clearCart } = useShop();
   const totalCost = cart.reduce((sum, p) => sum + Number(p.price), 0);
 
   return (
@@ -21,7 +40,7 @@ function Dashboard() {
           <div className="flex items-center gap-4">
             <span className="font-bold">Total cost: {totalCost}</span>
             <button className="btn btn-outline btn-sm rounded-full">Sort by Price</button>
-            <button className="btn btn-primary btn-sm rounded-full">Purchase</button>
+            <button onClick={handlePurchase} className="btn btn-primary btn-sm rounded-full">Purchase</button>
           </div>
         </div>
 
@@ -84,6 +103,11 @@ function Dashboard() {
           </div>
         ))}
       </div>
+      <Modal
+        message={message}
+        showModal = {showModal}
+        onClose={() => setShowModal(false)}
+      />
     </div>
   );
 }

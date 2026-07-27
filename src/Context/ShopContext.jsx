@@ -6,6 +6,11 @@ export function ShopProvider({children}){
     const [cart, setCart] = useState([])
     const [wishlist, setWishList] = useState([]);
 
+    const clearCart = () => {
+        setCart([]);
+    }
+
+
     const addToCart = (product) => {
         setCart((prev) => [...prev, product]);
     };
@@ -29,7 +34,7 @@ export function ShopProvider({children}){
      return (
     <ShopContext.Provider
       // eslint-disable-next-line no-undef
-      value={{ cart, wishlist, addToCart, removeFromCart, addToWishList, removeFromWishList }}
+      value={{ cart, wishlist, addToCart, removeFromCart, addToWishList, removeFromWishList,clearCart, }}
     >
       {children}
     </ShopContext.Provider>

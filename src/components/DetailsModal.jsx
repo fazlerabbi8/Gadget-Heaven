@@ -1,7 +1,5 @@
-const Modal = ({ message, onClose, showModal}) => {
-  if(!showModal){
-    return null;
-  }
+const DetailsModal = ({ message, onClose}) => {
+  
   return (
     <dialog open className="modal">
       <div className="modal-box">
@@ -21,4 +19,4 @@ const Modal = ({ message, onClose, showModal}) => {
   );
 };
 
-export default Modal;
+export default DetailsModal;

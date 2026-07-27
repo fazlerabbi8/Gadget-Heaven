@@ -29,25 +29,17 @@ const Navbar = () => {
             tabIndex="-1"
             className="menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow"
           >
-            <li>
-              <a>Home</a>
-            </li>
-            <li>
-              <a>Statistics</a>
-            </li>
-             <li><Link to="/dashboard">Dashboard</Link></li>
+            <li><Link to="/">Home</Link></li>
+           <li><Link to="/statistics">Statistics</Link></li>
+           <li><Link to="/dashboard">Dashboard</Link></li>
           </ul>
         </div>
-        <a className="btn btn-ghost text-xl">Gadget Heaven</a>
+        <a className="text-2xl font-bold"><Link to="/">Gadgets Heaven</Link></a>
       </div>
       <div className="navbar-center hidden lg:flex">
         <ul className="menu menu-horizontal px-1">
-          <li className="">
-            <a>Home</a>
-          </li>
-          <li>
-            <a>Statistics</a>
-          </li>
+           <li><Link to="/">Home</Link></li>
+           <li><Link to="/statistics">Statistics</Link></li>
            <li><Link to="/dashboard">Dashboard</Link></li>
         </ul>
       </div>

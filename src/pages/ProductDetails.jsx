@@ -1,7 +1,7 @@
 import { useLoaderData } from "react-router";
 import { useShop } from "../Context/ShopContext";
 import { useState } from "react";
-import Modal from "../components/Modal";
+import DetailsModal from "../components/DetailsModal";
 
 const ProductDetails = () => {
   const product = useLoaderData();
@@ -108,7 +108,7 @@ const ProductDetails = () => {
         </div>
       </div>
        {showModal && (
-      <Modal
+      <DetailsModal
         message={message}
         onClose={() => setShowModal(false)}
       />
