@@ -2,10 +2,12 @@ import { LuShoppingCart } from "react-icons/lu";
 import { MdOutlineFavoriteBorder } from "react-icons/md";
 
 import { Link } from "react-router";
+import { useShop } from "../Context/ShopContext";
 
 const Navbar = () => {
+  const {cart} = useShop();
   return (
-    <div className="navbar">
+    <div className="navbar sticky top-0 z-50 bg-white">
       <div className="navbar-start">
         <div className="dropdown">
           <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
@@ -29,29 +31,51 @@ const Navbar = () => {
             tabIndex="-1"
             className="menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow"
           >
-            <li><Link to="/">Home</Link></li>
-           <li><Link to="/statistics">Statistics</Link></li>
-           <li><Link to="/dashboard">Dashboard</Link></li>
+            <li>
+              <Link to="/">Home</Link>
+            </li>
+            <li>
+              <Link to="/statistics">Statistics</Link>
+            </li>
+            <li>
+              <Link to="/dashboard">Dashboard</Link>
+            </li>
           </ul>
         </div>
-       <div className="flex items-center justify-center gap-4">
-        <img className="w-16 h-16" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTTD6sT9J-ouyGypqu_-mu9XJ13r98RGS2Mg2EqAZOhbw&s=10" alt="" />
-         <a className="text-2xl font-bold"><Link to="/">Gadgets Heaven</Link></a>
-         
-       </div>
+        <div className="flex items-center justify-center gap-4">
+          <img
+            className="w-16 h-16"
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTTD6sT9J-ouyGypqu_-mu9XJ13r98RGS2Mg2EqAZOhbw&s=10"
+            alt=""
+          />
+          <a className="text-2xl font-bold">
+            <Link to="/">Gadgets Heaven</Link>
+          </a>
+        </div>
       </div>
       <div className="navbar-center hidden lg:flex">
         <ul className="menu menu-horizontal px-1">
-           <li><Link to="/">Home</Link></li>
-           <li><Link to="/statistics">Statistics</Link></li>
-           <li><Link to="/dashboard">Dashboard</Link></li>
+          <li>
+            <Link to="/">Home</Link>
+          </li>
+          <li>
+            <Link to="/statistics">Statistics</Link>
+          </li>
+          <li>
+            <Link to="/dashboard">Dashboard</Link>
+          </li>
         </ul>
       </div>
       <div className="navbar-end gap-3">
-        <Link to= "/cart" className="text-2xl">
-          <LuShoppingCart />
+
+        <Link to="/cart" className="text-2xl">
+          <button className="btn text-2xl">
+            <LuShoppingCart />{" "}
+            <div className="badge badge-sm badge-secondary">{cart.length}</div>
+          </button>
         </Link>
-        <Link to= "/wishlist" className="text-2xl btn">
+
+        <Link to="/wishlist" className="text-2xl btn">
           <MdOutlineFavoriteBorder />
         </Link>
       </div>
