@@ -38,6 +38,7 @@ const router = createBrowserRouter([
       {
         path:"/statistics",
         Component:Statistics,
+        loader: () => fetch("/products.json")
       },
       {
         path: "/cart",
