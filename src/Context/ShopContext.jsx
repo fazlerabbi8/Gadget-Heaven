@@ -21,7 +21,7 @@ export function ShopProvider({children}){
 
     const addToWishList = (product) => {
         setWishList((prev) => {
-            const exists = prev.some((p) => p.product_title === product.product_title);
+            const exists = prev.some((p) => p.product_title !== product.product_title);
 
             return exists ? prev : [...prev, product];
         });

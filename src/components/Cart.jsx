@@ -59,7 +59,7 @@ const Cart = () => {
           displayProducts.map((product) => (
             <div
               key={product.product_title}
-              className="flex justify-between items-center border p-4 rounded-lg mb-3"
+              className="flex justify-between items-center border border-gray-200 p-4 rounded-lg mb-3"
             >
               <div className="flex gap-4">
                 <img
@@ -70,7 +70,7 @@ const Cart = () => {
                 <div>
                   <h3 className="font-bold">{product.product_title}</h3>
                   <p>{product.description}</p>
-                  <p>${product.price}</p>
+                  <p>Price: ${product.price}</p>
                 </div>
               </div>
 
