@@ -10,7 +10,7 @@ const Banner = () => {
       <div className="hero-overlay"></div>
       <div className="hero-content text-neutral-content text-center">
         <div className="max-w-md">
-          <h1 className="mb-5 text-2xl font-bold">Upgrade Your Tech Accessorize with Gadget Heaven Accessories</h1>
+          <h1 className="mb-5 text-3xl font-bold">Upgrade Your Tech Accessorize with Gadget Heaven Accessories</h1>
           <p className="mb-5">
             Explore the latest gadgets that will take your experience to the next level. From smart devices to the coolest accessories, we have it all!
           </p>

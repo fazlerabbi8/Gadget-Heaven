@@ -48,10 +48,10 @@ const Navbar = () => {
         </ul>
       </div>
       <div className="navbar-end gap-3">
-        <Link className="text-2xl">
+        <Link to= "/cart" className="text-2xl">
           <LuShoppingCart />
         </Link>
-        <Link className="text-2xl btn">
+        <Link to= "/wishlist" className="text-2xl btn">
           <MdOutlineFavoriteBorder />
         </Link>
       </div>
